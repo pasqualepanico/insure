@@ -1,0 +1,389 @@
+body {
+  margin: 0;
+}
+
+.header-top {
+  margin: 20px 0 20px 80px;
+}
+
+.menu-pages {
+  padding: 10px 20px 10px 30px;
+  text-align: center;
+}
+
+.logo-img {
+  margin-right: 420px;
+}
+
+.header-top span {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.a-style {
+  margin-left: 10px;
+}
+
+.logo-bottom {
+  margin: 0 865px 0 80px;
+}
+
+.for-a-style {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 80px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 98%);
+  background-image: url("bg-pattern-footer-desktop.svg");
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+h3 {
+  color: hsl(216, 30%, 68%);
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+p {
+  color: black;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.long-line {
+  border-top: 2px solid hsl(216, 30%, 68%);
+  height: 1px;
+  margin-left: 80px;
+  margin-right: 70px;
+}
+
+.hamburger {
+  position: fixed;
+  left: 180px;
+  top: 0px;
+}
+
+.logo-mobile-style {
+  margin-left: 20px;
+}
+
+.stlyling-hamburger {
+  border: 1px black solid;
+}
+
+.center-container {
+  margin: 0;
+  position: relative;
+}
+
+.top-introduction {
+  background-image: url("bg-pattern-intro-right-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: hsl(256, 26%, 20%);
+  position: relative;
+  height: 616px;
+}
+
+.top-introduction hr {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid hsl(273, 4%, 51%);
+  margin: 0 0 0 80px;
+  padding-top: 60px;
+  width: 110px;
+}
+
+.top-introduction img {
+  display: inline-block;
+  position: relative;
+  left: 620px;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.9;
+}
+
+.top-introduction h1 {
+  position: absolute;
+  left: 80px;
+  color: hsl(0, 0%, 98%);
+  display: inline-block;
+  font-family: DM Serif Display, serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 30px 0 0 0;
+  line-height: 1;
+  width: 350px;
+  height: 96px;
+}
+
+.top-introduction p {
+  position: absolute;
+  left: 80px;
+  top: 190px;
+  color: hsl(0, 0%, 98%);
+  display: inline-block;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 502px;
+  height: 72px;
+}
+
+.middle-introduction {
+  color: hsl(0, 0%, 98%);
+  margin: 0;
+}
+
+.middle-introduction hr {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid hsl(273, 4%, 51%);
+  margin: 0 0 0 80px;
+  padding-top: 180px;
+  width: 110px;
+}
+
+.middle-introduction h1 {
+  color: black;
+  font-family: DM Serif Display, serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 30px 0 30px 80px;
+}
+
+.middle-introduction .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-right: 80px;
+}
+
+.middle-introduction h3 {
+  color: black;
+  font-family: DM Serif Display, serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+
+.middle-introduction p {
+  color: hsl(273, 4%, 51%);
+  font-family: Karla, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  width: 350px;
+}
+
+.in-the-box {
+  background-color: hsl(256, 26%, 20%);
+  background-image: url("bg-pattern-how-we-work-desktop.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 60px 80px;
+  padding: 30px 0 20px 80px;
+  position: relative;
+}
+
+.in-the-box h1 {
+  color: hsl(0, 0%, 98%);
+  display: inline-block;
+  font-family: DM Serif Display, serif;
+  font-size: 48px;
+  font-weight: 700;
+  width: 402px;
+}
+
+.bg-pattern-right {
+  display: none;
+  visibility: hidden;
+}
+
+.bg-pattern-left {
+  display: none;
+}
+
+.bg-left-desktop {
+  visibility: visible;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  top: 370px;
+  left: 0;
+}
+
+span.account:hover {
+  font-weight: bold;
+}
+
+span.blog:hover {
+  font-weight: bold;
+}
+
+span.work:hover {
+  font-weight: bold;
+}
+
+.style-mouse-over:hover {
+  background-color: black;
+  color: hsl(0, 0%, 98%);
+}
+
+.style-bold-over:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.style-icon-over:hover {
+  color: black;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-pattern-right {
+    visibility: visible;
+    display: inline-block;
+    position: absolute;
+
+    top: 860px;
+    right: 0;
+  }
+
+  .bg-pattern-left {
+    visibility: visible;
+    display: inline-block;
+    position: absolute;
+    top: 581px;
+    left: 0;
+  }
+
+  .bg-left-desktop {
+    display: none;
+  }
+
+  .center-container {
+    position: relative;
+  }
+
+  .logo-bottom {
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+  }
+
+  .for-a-style {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .long-line {
+    margin-top: 30px;
+  }
+
+  .container {
+    background-image: url("bg-pattern-footer-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 500px 120px;
+  }
+
+  .top-introduction hr {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 0;
+  }
+
+  .top-introduction {
+    background-image: none;
+    position: static;
+    display: block;
+    padding-bottom: 60px;
+    height: auto;
+  }
+
+  .top-introduction img {
+    display: block;
+    position: static;
+    opacity: 1;
+  }
+
+  .top-introduction h1 {
+    position: static;
+    display: block;
+    margin: 60px auto 15px auto;
+    text-align: center;
+  }
+
+  .top-introduction p {
+    position: static;
+    display: block;
+    margin: 0 70px 15px 70px;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .middle-introduction hr {
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+  }
+
+  .middle-introduction .grid-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .middle-introduction h1 {
+    margin: 30px auto 60px auto;
+    text-align: center;
+  }
+
+  .middle-introduction p {
+    margin: 0 auto 60px auto;
+  }
+
+  .bottom-container {
+    margin: 0 20px 60px 20px;
+  }
+
+  .in-the-box {
+    background-image: url("bg-pattern-how-we-work-mobile.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: static;
+    padding: 30px 30px;
+  }
+
+  .in-the-box h1 {
+    margin: auto;
+    text-align: center;
+    width: auto;
+  }
+}
